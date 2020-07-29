@@ -29,8 +29,12 @@ body {
     height: 20px;
 }
 
+h1{
+    text-align: center;
+}
+
 .espaco{
-    min-width: 150px;;
+    min-width: 150px;
 }
 
 input[type="range" i]{
@@ -102,6 +106,23 @@ input[type="text" i]{
     
     margin: 0;
     padding: 0;
+}
+
+#insta{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#insta a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
 }
 
 @media (max-width: 600px) {
