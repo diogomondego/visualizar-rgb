@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Cores RGB</title>
+</head>
+
+<body id="backgroundRGB">
+    <div class="conteiner">
+        <div class="box">
+            <h1>Visualização de cores em escala RGB</h1>
+            <div class="directionInputs">
+                <p id="redP" class="espaco">Red (R):</p>
+                <input type="range" id="redRange" value="0" min="0" max="255">
+                <input type="text" id="redText" value="0" disabled readonly>
+            </div>
+            <div class="directionInputs">
+                <p id="greenP" class="espaco">Green (G):</p>
+                <input type="range" id="greenRange" value="0" min="0" max="255">
+                <input type="text" id="greenText" value="0" disabled readonly>
+            </div>
+            <div class="directionInputs">
+                <p id="blueP" class="espaco">Blue (B):</p>
+                <input type="range" id="blueRange" value="0" min="0" max="255">
+                <input type="text" id="blueText" value="0" disabled readonly>
+            </div>
+        </div>
+    </div>
+    <script defer src="./js/script.js"></script>
+</body>
+
+</html>

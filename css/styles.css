@@ -1,0 +1,115 @@
+body {
+    margin: 0
+}
+.conteiner{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px 25px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-weight: bold;
+    height: 250px;
+}
+
+.directionInputs{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    height: 20px;
+}
+
+.espaco{
+    min-width: 150px;;
+}
+
+input[type="range" i]{
+    -webkit-appearance: none;
+    margin: 0 10px;
+    border-radius: 8px;
+    height: 15px;
+    width: 180px;
+}
+
+input[type="range" i]:focus{
+    outline: none;
+}
+
+
+input[type="range" i]::-webkit-slider-thumb{
+    all:unset; /* limpa os estilos iniciais */
+    -webkit-appearance: none; /* remove a aparencia padão */
+    border: none;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    border-radius: 50%;
+    background: linear-gradient(to right, white, gray);
+    border: 1px solid gray;
+}
+
+input[type="range" i]:focus::-webkit-slider-thumb{
+    background: linear-gradient(to right, gray, black);
+    border: 1px solid black;
+}
+
+input[type="text" i]{
+    width: 40px;
+    border-radius: 8px;
+    text-align: center;
+    height: 18px;
+    border-color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+#redRange {
+    background: linear-gradient(to right, black, red);
+}
+
+
+#greenRange {
+    background: linear-gradient(to right, black, green);
+}
+#blueRange {
+    background: linear-gradient(to right, black, blue);
+}
+
+#redP{
+    color: red;
+    
+    margin: 0;
+    padding: 0;
+}
+#greenP{
+    color: green;
+    
+    margin: 0;
+    padding: 0;
+}
+#blueP{
+    color: blue;
+    
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 600px) {
+    .box{
+        width: 80vw;
+        margin: 0 auto;
+    }
+    .espaco{
+        min-width: 90px;
+    }
+}
