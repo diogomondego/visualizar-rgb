@@ -1,5 +1,3 @@
-# visualizar-rgb
- Veja sua cor preferida na escala RGB
 <h1 align="center">Visualizar RGB</h1>
 
 <p align="center">Veja sua cor preferida na escala RGB.</p>
